@@ -11,11 +11,16 @@ Mini-Detecto is an AI-based fruit classification and sorting system that uses de
 - ✅ **Real-Time Prediction:** Classifies and sorts fruit images automatically.  
 
 ## Project Structure
-Mini-Detecto/ │── dataset/ # Original dataset (fresh apples & fresh bananas) │── models/ # Trained machine learning models │── scripts/
-│ ├── train_model.ipynb # Model training and evaluation │ ├── success_rate_test.py # Evaluates success rate of models │── hardware/
-│ ├── servo_control.ino # Arduino code for servo control │── results/
-│ ├── classification_demo.mp4 # Video of working project │── README.md # Project documentation
-
+    Mini-Detecto/
+    │── Dataset/                  # Training dataset (fresh apples & fresh bananas)
+    │── TestDataset/                  # Test dataset (fresh apples & fresh bananas)
+    │── scripts/                  
+    │   ├── Project_Code.ipynb     # Model training and evaluation
+    │   ├── success_rate_test.py  # Evaluates success rate of models
+    │── hardware/                 
+    │   ├── servo_control.ino     # Arduino code for servo control                  
+    ├── classification_demo.mp4  # Video of working project
+    │── README.md                 # Project documentation
 
 ## Dataset
 The dataset contains images of fresh apples and bananas, stored in:  
