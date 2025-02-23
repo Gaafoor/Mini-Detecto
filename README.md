@@ -1,4 +1,4 @@
-# Mini-Detecto: AI-Based Fruit Classification and Sorting 🍏🍌
+# Mini-Detecto: AI-Based Fruit Classification and Sorting 🍎🍌
 
 ## Overview
 Mini-Detecto is an AI-based fruit classification and sorting system that uses deep learning to distinguish between apples and bananas. The project integrates machine learning, computer vision, and embedded systems to achieve automated fruit recognition and sorting using a servo motor.
